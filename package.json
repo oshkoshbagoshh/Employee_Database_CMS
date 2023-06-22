@@ -1,0 +1,16 @@
+{
+  "name": "employee_database_cms",
+  "version": "1.0.0",
+  "description": "A database-driven Content Management System will be developed using Node JS and MySQL to enable managers to have control over employees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.4.0"
+  }
+}
