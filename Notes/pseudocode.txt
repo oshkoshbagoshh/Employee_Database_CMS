@@ -4,7 +4,7 @@
  * @Email: someone@example.com
  * @Date: 2023-06-22 18:14:10 
  * @Last Modified by: Someone
- * @Last Modified time: 2023-06-22 20:06:15
+ * @Last Modified time: 2023-06-22 22:42:38
  * @Description: Psuedocode
  */
 
@@ -34,3 +34,16 @@ TODO:
 * View the total utilized budget of a department. In otherwords, the combined salaries of all employees in that department
 
 
+TODO: Bonus
+
+Try to add some additional functionality to your application, such as the ability to do the following:
+
+[] Update employee managers.
+
+[] View employees by manager.
+
+[] View employees by department.
+
+[] Delete departments, roles, and employees.
+
+[] View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.

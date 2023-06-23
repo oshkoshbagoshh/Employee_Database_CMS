@@ -69,12 +69,14 @@ inquirer
         message: "Welcome!...Please select an action",
         choices: [
             "View All departments", new inquirer.Separator(),
-            "View all roles",
-            "View all employees",
-            "Add a department",
-            "Add a role",
-            "Add an employee",
-            "Update an employee role",
+            "View all roles", new inquirer.Separator(),
+            "View all employees", new inquirer.Separator(),
+            "Add a department",new inquirer.Separator(),
+            "Add a role",new inquirer.Separator(),
+            "Add an employee",new inquirer.Separator(),
+            "Update an employee role",new inquirer.Separator(),
+            // Update employee manager
+            "Update an employee's manager", new inquirer.Separator(),
             "Exit"
             /* BONUS HERE: TODO:
                     Update employee managers.
@@ -115,6 +117,12 @@ inquirer
                     case "Update an employee role":
                         updateEmployeeRole();
                         break;
+                    case "View Salaries by Department":
+                        viewSalariesbyDepartment();
+                        break;
+                    // case "Update an employee's manager":
+                    //     updateEmployeeManager();
+                    //     break;
                     case "Exit":
                         db.end();
                         break;
@@ -270,3 +278,48 @@ function updateEmployeeRole() {
             });
     });
 }
+
+// function updateEmployeeManager() {
+//     db.query('SELECT * FROM employees;',function(err,employees)  {
+//         if(err) throw err;
+        
+
+//     inquirer.prompt({
+//         name:"role_id ",
+//         type:"list",
+//         message: 'Which employee\'s manager do you want to update?',
+//         choices: employees.map(employee => ({ name: `${employee.first_name} ${employee.last_name}`, value: employee.id }))
+
+//     },
+//     {
+//         name: 'manager_id',
+//         type: 'list',
+//         message: 'Who would you like to assign as their manager?',
+//         choices
+        
+//     });
+// })
+// }
+
+// function viewSalariesbyDepartment(){
+//     db.query('SELECT ')
+// }
+
+
+/*
+TODO: Bonus
+
+Try to add some additional functionality to your application, such as the ability to do the following:
+
+[] Update employee managers.
+
+[] View employees by manager.
+
+[] View employees by department.
+
+[] Delete departments, roles, and employees.
+
+[] View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
+
+
+*/
