@@ -1,0 +1,28 @@
+
+/*
+ * @Author: AJ Javadi
+ * @Email: someone@example.com
+ * @Date: 2023-06-22 18:14:10 
+ * @Last Modified by: Someone
+ * @Last Modified time: 2023-06-22 18:39:53
+ * @Description: Psuedocode
+ */
+
+
+
+TODO:
+
+- set up database with schema 
+- insert data into all of the tables
+- set up the command line interface via node js , inquirer, etc.
+- bonus
+
+-- Database:
+    - schema (CREATE)
+    - seeds (INSERT )
+    - queries (SELECT, UPDATE, DELETE, etc.)
+
+
+-- make queries asynchronous
+
+
