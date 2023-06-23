@@ -15,5 +15,3 @@ WHERE id = 2;
 
 -- Delete Statement
 
-
-
