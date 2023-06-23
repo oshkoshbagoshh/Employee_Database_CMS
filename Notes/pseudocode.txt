@@ -4,7 +4,7 @@
  * @Email: someone@example.com
  * @Date: 2023-06-22 18:14:10 
  * @Last Modified by: Someone
- * @Last Modified time: 2023-06-22 18:39:53
+ * @Last Modified time: 2023-06-22 20:06:15
  * @Description: Psuedocode
  */
 
@@ -24,5 +24,13 @@ TODO:
 
 
 -- make queries asynchronous
+
+
+-- BONUS:
+* Update employee managers
+* view employees by manager
+* view employees by department
+* Delete departments, roles, employees
+* View the total utilized budget of a department. In otherwords, the combined salaries of all employees in that department
 
 
